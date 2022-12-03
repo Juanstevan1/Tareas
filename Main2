@@ -1,0 +1,18 @@
+public class Main2{
+    public static void main(String[] args) {
+        micoche.addDors();
+        System.out.println(micoche.getDoors());
+    }
+
+}
+
+class coche{
+    public int puertas =0;
+
+    public void addDors(){
+        this.puertas++;
+    }
+    public int getDoors(){
+        return this.puertas;
+    }
+}
